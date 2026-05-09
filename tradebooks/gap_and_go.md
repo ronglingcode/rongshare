@@ -169,48 +169,11 @@ Understanding Gap-and-Go as a participation strategy, rather than a visual patte
 
 ## Live Execution Sheet
 
-Use the shared live management principles in [`tradebooks/shared/3-tier-live-trade-management.md`](shared/3-tier-live-trade-management.md).
-
-For Gap and Go, the core rule is:
-
-> As long as there is no Gap-and-Go reversal / invalidation signal, hold the core position toward the main target.
-
-### Before Entry
-
 - Key level: `__________`
 - Entry wall: `__________`
 - Stop: `__________`
-- First target: `__________`
-- Main target: `__________`
+- Scalp target: `__________`
+- Core target: `__________`
+- Runner trigger condition: `__________`
 - Size split: scalp `____%` / core `____%` / runner `____%`
-
-### Gap-and-Go Hold Conditions
-
-Hold core if:
-
-- Price is above the key level.
-- Price is above VWAP.
-- Breakout-hold level still holds.
-- No real Bookmap selling pressure.
-- Main target has not been reached.
-
-### Gap-and-Go Reversal / Invalidation Signals
-
-Partial exit if:
-- double rejection at major ask wall
-- asks step down
-- large prints hit resistance and price moves down
-
-Full exit if:
-- stop hit
-- breakout-hold level lost
-- VWAP bounce fail
-- two 1-minute closes below support
-- real Bookmap selling pressure
-
-### Gap-and-Go Add Rule
-
-Only add above premarket high + above VWAP + clean Bookmap wall breakout.
-
-Do not add to fix a bad entry.
 
