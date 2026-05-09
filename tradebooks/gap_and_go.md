@@ -36,7 +36,7 @@ Basically the daily chart needs to show large institutions have been buying this
 - Light zone above with minimal supply
 - No heavy supply zones created by 10+ days or a deep downtrend
 
-### Gap Path Matters
+### News-to-Open Path
 Pay attention to not only where the stock opens that creates the gap, also the entire path that it travelled since the news is released. We prefer to see the gap up has a smaller pullback like less 20%. If a stock gapped up 5 ATR and pulled back 4 ATR to open, although it's still 1 ATR gap up, maybe even near above a consolidation range on the daily chart, this is however not a good gap and go for long because it probably hit some major resistance at the 5 ATR gap and sellers already took control and took it down 4 ATR. That will be a more of bearish open dispite the gap up.
 
 ## Key Level Selection Priority
@@ -58,7 +58,7 @@ There have been a previous news and that previous news created an extreme high/l
 
 For stocks with morning news, there are a few cases when using premarket high breakout is not a good idea, like it's probably too extended to long after premarket high breakout. If it actually ran to some supply zone on the daily chart during premarket and created such premarket high, then this premarket high is more likely to be entry for short sellers. For premarket high breakout to be a good long setup, it needs to have open space beyond premarket high.
 
-## Entry Model: Bookmap Big Offer Wall Breakout
+## Entry Patterns: Bookmap Big Offer Wall Breakout
 Given the key level we choose, we find the nearest large limit sell orders wall from the bookmap that's above the key level and vwap, and we trade the breakout of that wall. There are two ways for this breakout, they are documented in 
 * [Big Offer Clear, Pullback, Go](./bookmap_patterns/big_offer_clear_pullback_go.md)
 * [Big Offer Clear, Bids Hold Above](./bookmap_patterns/big_offer_clear_bids_hold_above.md)
@@ -77,13 +77,6 @@ If the stock didn't make a new high of day, it will probably go down to some sup
 
 ## Trade Management
 Follow the [3-tier trade management](./shared/3-tier-live-trade-management.md)
-### Profit Targets
-Common profit targets are in the order of
-1. other levels from higher timeframe (daily chart)
-2. levels from intraday charts: cam pivots, premarket high/low, previous day high/low, after hour high/low.
-3. other big walls from bookmap
-
-Use the above for setting core targets and runner targets. 
 
 ### Core Tier
 Watch out for the following `Reversal / Invalidation Signal`
@@ -93,17 +86,12 @@ Watch out for the following `Reversal / Invalidation Signal`
   * if it tested vwap before the entry, vwap hold can be a great condition to manage the trade
 * 2 consecutive 1-minute candle close below a key level
   * if it tested the key level before the entry or break out a major key level after open, the hold of this level can be a great condition to manage the trade
-* [Big Offer Wall Reappear](./bookmap_patterns/big_offer_wall_reappear.md) or [Sellers Step Down](./bookmap_patterns/sellers_step_down.md)
+* [Offer Reappear](./bookmap_patterns/offer_reappear.md) or [Offer Step Down](./bookmap_patterns/offer_step_down.md)
   * if there's a offer wall that has the larger size than our entry wall, this can be a great condition to manage the trade
 
 
 ### Runner Tier
-Runner tier should first have its `Trigger Condition`. It's usually a major level for another breakout, it can also be the final target for the core tier, such as
-* all time high
-* high from a previous key event
-* premarket high/after-hours high 
-
-When price approaches core targets, it's ok to partial the core tire while holding the runner tier. If seeing strong signal of core targets holding, all out on both core and runner tier. If price easiy go beyond targets or made a mini consolidation and breakout, move the stop loss of the runner to the consolidation edge and hold it to the final runner target. 
+A good trigger condition is a major level breakout on the higher timeframe, beyond that level, it's much lighter zone above.
 
 ## Add
 This section is not fully done. To keep things simple, only allow add when add entry is above premarket high. If we started with a partial R risk, we can add into 1 R.

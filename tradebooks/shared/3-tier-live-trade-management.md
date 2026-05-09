@@ -19,7 +19,13 @@ Define:
 - runner target
 - reversal / invalidation signals
 
-If these are not defined before entry, reduce size or skip.
+## Profit Targets
+Common profit targets are in the order of
+1. other levels from higher timeframe (daily chart)
+2. levels from intraday charts: cam pivots, premarket high/low, previous day high/low, after hour high/low.
+3. other big walls from bookmap
+
+Use the above for setting core targets and runner targets. 
 
 ## 1. Scalp
 
@@ -50,20 +56,19 @@ Actions to take if seeing reversal / invalidation signal
 
 Purpose: capture extension after the core move.
 
-Runner needs a tradebook-specific trigger condition that says the trade is starting to extend toward the runner target.
+Runner needs a tradebook-specific trigger condition that says the trade is starting to extend toward the runner target. That's usually the breakout/breakdown of 
+* all time high
+* high/low from a previous key event
+* high/low from news to open
+* final tareget of the core tier
 
-Examples:
-- Gap and Crap runner may require breakdown below premarket low.
-- Gap and Go runner may require holding above breakout level / VWAP after core target.
+When price approaches core targets, it's ok to partial the core tire while holding the runner tier. If seeing strong signal of core targets holding, all out on both core and runner tier. If price easiy go beyond targets or made a mini consolidation and breakout, move the stop loss of the runner to the consolidation edge and hold it to the final runner target. 
 
 Runner exits if:
 - runner trigger condition fails
-- price cannot extend toward the runner target
 - setup-specific reversal signal appears
+- a large wall from bookmap that holds or price reverse after clearing that wall
 - trailing structure breaks
-
-Example:
-If Gap and Crap runner target is 1 ATR below premarket low, but premarket low keeps holding, I can exit the runner instead of waiting for the ATR target.
 
 ## Simple Live Rule
 

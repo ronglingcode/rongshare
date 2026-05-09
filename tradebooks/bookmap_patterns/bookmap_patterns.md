@@ -12,13 +12,14 @@
 
 
 ## Category 3: Buy the Dip
+* [Bid Step Up](./bid_step_up.md)
 
 ## Category 4: Short the Pop
 
 * [Big Offer Clear, Fail Back Below, Breakdown Bid](./big_offer_clear_fail_back_below_breakdown_bid.md)
 * [Big Offer Clear, Fail Back Below, Breakdown Swing Low](./big_offer_clear_fail_back_below_breakdown_swing_low.md)
-* [Big Offer Wall Reappear](./big_offer_wall_reappear.md)
-* [Sellers Step Down](./sellers_step_down.md)
+* [Offer Reappear](./offer_reappear.md)
+* [Offer Step Down](./offer_step_down.md)
 
 
 ## Pending patterns

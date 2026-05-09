@@ -3,8 +3,7 @@
 Use this document to decide which tradebooks are applicable to this stock today, then open the relevant tradebook file for the full execution rules. Tradebooks in scope:
 - [`Gap and Go`](../gap_and_go.md)
 - [`Gap and Crap`](../gap_and_crap.md)  
-- [`Gap Down and Go Up`](../gap_down_and_go_up.md)
-- [`Gap Down and Go Down`](../gap_down_and_go_up.md)
+- [`Gap Give and Go`](../gap_give_and_go.md)
 
 ## Decision Table for Gap Up Stocks
 
